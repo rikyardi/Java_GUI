@@ -21,6 +21,8 @@ public class Test {
      */
     public static void main(String[] args) {
  
+<<<<<<< HEAD
+=======
 //      //Getting the current date value
 //      LocalDate currentdate = LocalDate.now();
 //      System.out.println("Current date: "+currentdate);
@@ -34,6 +36,7 @@ public class Test {
 //      int currentYear = currentdate.getYear();
 //      System.out.println("Current month: "+currentYear);
 //      
+>>>>>>> 81dd74501e7cbda378655ab97ffed83aa0196b44
       
       
       //Java calendar in default timezone and default locale
