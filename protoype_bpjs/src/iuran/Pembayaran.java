@@ -9,15 +9,15 @@ package iuran;
  *
  * @author rikya
  */
-import java.time.LocalDate;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.TimeZone;
+//import java.time.LocalDate;
+//import java.util.Calendar;
+//import java.util.Date;
+//import java.util.TimeZone;
+
 public class Pembayaran {
     int total;
     double total_ppu;
-//    Date bayar;
-    String bulan, nama, alamat, ttl, faskes, status, nomor, nik, kk, bayar;
+    String bulan, nama, alamat, ttl, faskes, status, kelas, nomor, nik, kk, bayar;
     static int pbi = 42000;
     static double ppu = 0.05;
  
@@ -32,15 +32,5 @@ public class Pembayaran {
         this.status = status;
         this.bayar = bayar;
     }
-    
-    public int bayar_peserta_pbi(int x){
-        total = x * this.pbi;
-        return total;
-    }
-    
-    public double bayar_peserta_ppu(int x){
-        total_ppu = x * this.ppu;
-        return total_ppu;
-    }
-        
+
 }
