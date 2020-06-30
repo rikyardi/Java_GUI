@@ -426,7 +426,7 @@ public class UI_Mandiri extends javax.swing.JFrame {
             jTextField8.setText("");
             jLabel12.setText("Rp. ");
             
-            fileName = "src/"+nomor+".txt";
+            fileName = "src/MANDIRI_"+nomor+".txt";
             fileContent = 
                    "===Pembayaran BPJS===\n" 
                    +"Nomor    : " +nomor +"\n"
