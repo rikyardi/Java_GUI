@@ -1,4 +1,5 @@
 ===Pembayaran BPJS===
+Pembayaran Peserta Mandiri 2020-07-06
 Nomor    : 1245323554323
 NIK      : 17238239475839402
 Nama     : Agus Winarto
@@ -7,6 +8,6 @@ Faskes   : Klinik Sukamaju
 Status   : Mandiri
 Kelas    : 1
 Keluarga : 1 Orang
-Periode  : 12 Bulan
+Periode  : 6 Bulan
 ======================
-Total Bayar : 1920000
+Total Bayar : 960000
