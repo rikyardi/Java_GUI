@@ -172,57 +172,38 @@ public class UI_PPU extends javax.swing.JFrame implements Struk{
 
         jPanel1.setBackground(new java.awt.Color(0, 162, 73));
         jPanel1.setPreferredSize(new java.awt.Dimension(1199, 421));
-        jPanel1.setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Nama Karyawan     : ");
-        jPanel1.add(jLabel1);
-        jLabel1.setBounds(10, 53, 114, 15);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Tunjangan Tetap   : ");
-        jPanel1.add(jLabel2);
-        jLabel2.setBounds(10, 115, 115, 15);
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Gaji Pokok             : ");
-        jPanel1.add(jLabel3);
-        jLabel3.setBounds(10, 85, 116, 15);
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Pembayaran PPU");
-        jPanel1.add(jLabel4);
-        jLabel4.setBounds(540, 20, 260, 30);
 
         txtkaryawan.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         txtkaryawan.setEnabled(false);
-        jPanel1.add(txtkaryawan);
-        txtkaryawan.setBounds(134, 50, 150, 21);
 
         txtgaji.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         txtgaji.setEnabled(false);
-        jPanel1.add(txtgaji);
-        txtgaji.setBounds(136, 82, 148, 21);
 
         txttunjangan.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         txttunjangan.setEnabled(false);
-        jPanel1.add(txttunjangan);
-        txttunjangan.setBounds(135, 112, 150, 21);
 
         txtangkel.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         txtangkel.setEnabled(false);
-        jPanel1.add(txtangkel);
-        txtangkel.setBounds(135, 144, 150, 21);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Anggota Keluarga  : ");
-        jPanel1.add(jLabel5);
-        jLabel5.setBounds(10, 147, 113, 15);
 
         btnhitung.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnhitung.setText("Jumlah");
@@ -232,19 +213,13 @@ public class UI_PPU extends javax.swing.JFrame implements Struk{
                 btnhitungActionPerformed(evt);
             }
         });
-        jPanel1.add(btnhitung);
-        btnhitung.setBounds(132, 203, 69, 23);
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Jumlah Penghasilan :");
-        jPanel1.add(jLabel6);
-        jLabel6.setBounds(10, 240, 112, 15);
 
         txtjumlah.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         txtjumlah.setEnabled(false);
-        jPanel1.add(txtjumlah);
-        txtjumlah.setBounds(132, 237, 149, 21);
 
         btnhitungiuran.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnhitungiuran.setText("Hasil");
@@ -254,19 +229,13 @@ public class UI_PPU extends javax.swing.JFrame implements Struk{
                 btnhitungiuranActionPerformed(evt);
             }
         });
-        jPanel1.add(btnhitungiuran);
-        btnhitungiuran.setBounds(132, 269, 64, 23);
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Iuran BPJS            :");
-        jPanel1.add(jLabel7);
-        jLabel7.setBounds(10, 309, 110, 15);
 
         txtiuran.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         txtiuran.setEnabled(false);
-        jPanel1.add(txtiuran);
-        txtiuran.setBounds(132, 306, 160, 21);
 
         btnsave.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnsave.setText("Save");
@@ -276,8 +245,6 @@ public class UI_PPU extends javax.swing.JFrame implements Struk{
                 btnsaveActionPerformed(evt);
             }
         });
-        jPanel1.add(btnsave);
-        btnsave.setBounds(450, 270, 71, 23);
 
         btnedit.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnedit.setText("Update");
@@ -287,8 +254,6 @@ public class UI_PPU extends javax.swing.JFrame implements Struk{
                 btneditActionPerformed(evt);
             }
         });
-        jPanel1.add(btnedit);
-        btnedit.setBounds(540, 270, 80, 23);
 
         btncancel.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btncancel.setText("Cancel");
@@ -298,8 +263,6 @@ public class UI_PPU extends javax.swing.JFrame implements Struk{
                 btncancelActionPerformed(evt);
             }
         });
-        jPanel1.add(btncancel);
-        btncancel.setBounds(640, 270, 69, 23);
 
         btdelete.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btdelete.setText("Delete");
@@ -309,8 +272,6 @@ public class UI_PPU extends javax.swing.JFrame implements Struk{
                 btdeleteActionPerformed(evt);
             }
         });
-        jPanel1.add(btdelete);
-        btdelete.setBounds(720, 270, 69, 23);
 
         tabdata.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -331,14 +292,9 @@ public class UI_PPU extends javax.swing.JFrame implements Struk{
         });
         jScrollPane2.setViewportView(tabdata);
 
-        jPanel1.add(jScrollPane2);
-        jScrollPane2.setBounds(360, 60, 780, 191);
-
         jLabel9.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Total Iuran :");
-        jPanel1.add(jLabel9);
-        jLabel9.setBounds(810, 320, 68, 15);
 
         btnbayar.setText("Bayar");
         btnbayar.setEnabled(false);
@@ -347,8 +303,6 @@ public class UI_PPU extends javax.swing.JFrame implements Struk{
                 btnbayarActionPerformed(evt);
             }
         });
-        jPanel1.add(btnbayar);
-        btnbayar.setBounds(960, 350, 73, 23);
 
         txttanggal.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         txttanggal.addActionListener(new java.awt.event.ActionListener() {
@@ -356,14 +310,10 @@ public class UI_PPU extends javax.swing.JFrame implements Struk{
                 txttanggalActionPerformed(evt);
             }
         });
-        jPanel1.add(txttanggal);
-        txttanggal.setBounds(135, 171, 150, 21);
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Tanggal Bayar       :");
-        jPanel1.add(jLabel10);
-        jLabel10.setBounds(10, 174, 113, 15);
 
         jButton1.setText("Cek");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -371,25 +321,152 @@ public class UI_PPU extends javax.swing.JFrame implements Struk{
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1);
-        jButton1.setBounds(300, 20, 51, 23);
-        jPanel1.add(jTextField1);
-        jTextField1.setBounds(135, 20, 150, 20);
 
+        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel11.setText("Masukan Kode PT       : ");
-        jPanel1.add(jLabel11);
-        jLabel11.setBounds(10, 20, 112, 14);
+        jLabel11.setText("Masukan Kode PT  : ");
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Rp. ");
-        jPanel1.add(jLabel8);
-        jLabel8.setBounds(900, 320, 35, 22);
 
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iuran/Icon/logo bpjs kesehatan white opacity 30%.png"))); // NOI18N
-        jPanel1.add(jLabel12);
-        jLabel12.setBounds(400, 0, 430, 400);
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(10, 10, 10)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel5)
+                    .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel6)
+                    .addComponent(jLabel7)
+                    .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(2, 2, 2)
+                        .addComponent(txtkaryawan, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(4, 4, 4)
+                        .addComponent(txtgaji, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(txttunjangan, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(txtangkel, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtjumlah, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnhitungiuran, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtiuran, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnhitung)
+                            .addComponent(txttanggal, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(8, 8, 8)
+                .addComponent(jButton1)
+                .addGap(9, 9, 9)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 780, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(90, 90, 90)
+                        .addComponent(btnsave, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(19, 19, 19)
+                        .addComponent(btnedit, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(20, 20, 20)
+                        .addComponent(btncancel, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(11, 11, 11)
+                        .addComponent(btdelete))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(450, 450, 450)
+                        .addComponent(jLabel9))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(600, 600, 600)
+                        .addComponent(btnbayar, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(180, 180, 180)
+                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(540, 540, 540)
+                        .addComponent(jLabel8))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(40, 40, 40)
+                        .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE))))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(jButton1))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(320, 320, 320)
+                .addComponent(jLabel8))
+            .addComponent(jLabel12)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jTextField1)
+                    .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(jLabel1)
+                        .addGap(17, 17, 17)
+                        .addComponent(jLabel3)
+                        .addGap(15, 15, 15)
+                        .addComponent(jLabel2)
+                        .addGap(17, 17, 17)
+                        .addComponent(jLabel5)
+                        .addGap(12, 12, 12)
+                        .addComponent(jLabel10)
+                        .addGap(51, 51, 51)
+                        .addComponent(jLabel6)
+                        .addGap(54, 54, 54)
+                        .addComponent(jLabel7))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(txtkaryawan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(11, 11, 11)
+                        .addComponent(txtgaji, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(9, 9, 9)
+                        .addComponent(txttunjangan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(11, 11, 11)
+                        .addComponent(txtangkel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(6, 6, 6)
+                        .addComponent(txttanggal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(11, 11, 11)
+                        .addComponent(btnhitung)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(txtjumlah, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(11, 11, 11)
+                        .addComponent(btnhitungiuran)
+                        .addGap(14, 14, 14)
+                        .addComponent(txtiuran, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(19, 19, 19)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnsave)
+                            .addComponent(btnedit)
+                            .addComponent(btncancel)
+                            .addComponent(btdelete))
+                        .addGap(27, 27, 27)
+                        .addComponent(jLabel9)
+                        .addGap(15, 15, 15)
+                        .addComponent(btnbayar))))
+        );
 
         jMenu1.setText("Menu Utama ");
         jMenu1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -442,7 +519,7 @@ public class UI_PPU extends javax.swing.JFrame implements Struk{
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1199, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
