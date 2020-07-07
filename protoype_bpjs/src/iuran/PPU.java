@@ -9,12 +9,21 @@ package iuran;
  *
  * @author rikya
  */
-public class PPU extends Pembayaran{
-    int gaji;
+public class PPU {
+   
+    int ID, gaji, tunjangan, angkel, jumlahpenghasilan, iuran;
+    String kode_pt, nama, tanggal;
     double total;
-    public PPU(String nomor, String nama, String alamat, String ttl, String kk, String nik, String faskes, String status, int gaji, String bayar) {
-        super(nomor, nama, alamat, ttl, kk, nik, faskes, status, bayar);
-        gaji = this.gaji;
+    public PPU(int ID, String kode_pt, String nama, int gaji, int tunjangan, int angkel, int jumlahpenghasilan, String tanggal, int iuran) {
+        this.ID = ID;
+        this.kode_pt = kode_pt;
+        this.nama = nama;
+        this.gaji = gaji;
+        this.tunjangan = tunjangan;
+        this.angkel = angkel;
+        this.jumlahpenghasilan = jumlahpenghasilan;
+        this.tanggal = tanggal;
+        this.iuran = iuran;
     }
     
     double gaji(int x){

@@ -1,0 +1,13 @@
+===Pembayaran BPJS===
+Pembayaran Peserta Mandiri 2020-07-07
+Nomor    : 1245323554323
+NIK      : 17238239475839402
+Nama     : Agus Winarto
+Alamat   : Jl. Rawarontek RT. 03/01, Kel. Sukamakmur, Kec. Sukamandi, Kab. Jonggol, Jawa Barat
+Faskes   : Klinik Sukamaju
+Status   : Mandiri
+Kelas    : 1
+Keluarga : 1 Orang
+Periode  : 13 Bulan
+======================
+Total Bayar : 2080000

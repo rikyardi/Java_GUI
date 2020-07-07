@@ -1,0 +1,8 @@
+===Pembayaran BPJS===
+Pembayaran PPU 2020-07-07
+Kode PT            : 123
+Nama Perusahaan    : PT. Suryamandiri
+Karyawan           : 3 Orang
+Periode            : 1 Bulan
+======================
+Total Bayar : 518500

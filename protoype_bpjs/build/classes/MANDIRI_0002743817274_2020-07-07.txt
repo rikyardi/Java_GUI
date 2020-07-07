@@ -1,0 +1,13 @@
+===Pembayaran BPJS===
+Pembayaran Peserta Mandiri 2020-07-07
+Nomor    : 0002743817274
+NIK      : 57381928847382948
+Nama     : Riski Pratama Putra
+Alamat   : Jl. Amanah RT. 03/08 No.106 Kel. Cibinong, Kec. Cibinong, Kab. Bogor, Jawa Barat 
+Faskes   : Klinik Noordin Wahid
+Status   : Mandiri
+Kelas    : 3
+Keluarga : 3 Orang
+Periode  : 2 Bulan
+======================
+Total Bayar : 252000

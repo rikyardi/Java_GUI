@@ -12,6 +12,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.time.LocalDate;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -21,11 +22,12 @@ import javax.swing.JOptionPane;
  *
  * @author Dafimz
  */
-public class UI_PBI extends javax.swing.JFrame {
+public class UI_PBI extends javax.swing.JFrame implements Struk{
     static Connection conn;
     static Statement stmt;
     static ResultSet rs;
     static String nmr,nik, fsks, sts, tb, nokk, nma, almt, ttl, fileName, filecontent; 
+    LocalDate now = LocalDate.now();
 
     public static String ShowData(String where){
        String sql = "SELECT KARTU.nomor_kartu, KARTU.nik, KARTU.faskes, KARTU.status, KARTU.terakhir_bayar, data_diri.nomor_kk,data_diri.nama, data_diri.alamat, data_diri.ttl FROM kartu INNER JOIN data_diri ON kartu.nik = data_diri.nik WHERE kartu.nomor_kartu='"+where+"'";
@@ -37,7 +39,8 @@ public class UI_PBI extends javax.swing.JFrame {
     public UI_PBI() {
         initComponents();
     }
- public void cetakStruk(String fileName, String fileContent){
+    @Override
+    public void cetakStruk(String fileName, String fileContent) {
         try {
             FileWriter fileWriter = new FileWriter(fileName);
             fileWriter.write(fileContent);
@@ -47,6 +50,8 @@ public class UI_PBI extends javax.swing.JFrame {
             System.out.println("Terjadi kesalahan karena: " + e.getMessage());
         }
     }
+    
+ 
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -174,6 +179,11 @@ public class UI_PBI extends javax.swing.JFrame {
         jMenu2.add(jMenuItem2);
 
         jMenuItem3.setText("PPU");
+        jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem3ActionPerformed(evt);
+            }
+        });
         jMenu2.add(jMenuItem3);
 
         jMenuBar1.add(jMenu2);
@@ -234,7 +244,7 @@ public class UI_PBI extends javax.swing.JFrame {
                 while(rs.next()){
                     v++;
                 }
-                fileName="src/PBI_"+nmr+".txt";
+                fileName="src/PBI_"+nmr+"_"+now+".txt";
                 filecontent=
                         "===Status Anggota PBI===\n"
                         +"Nomor    : " +nmr+"\n"
@@ -274,6 +284,11 @@ public class UI_PBI extends javax.swing.JFrame {
     private void jMenu3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu3MouseClicked
         System.exit(0);        
     }//GEN-LAST:event_jMenu3MouseClicked
+
+    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
+        new UI_PPU().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -326,4 +341,10 @@ public class UI_PBI extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
+
+    
+
+    
+
+    
 }
