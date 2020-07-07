@@ -5,6 +5,8 @@
  */
 package iuran;
 
+import java.awt.Dimension;
+import java.awt.Toolkit;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.Connection;
@@ -38,6 +40,9 @@ public class UI_PBI extends javax.swing.JFrame implements Struk{
      */
     public UI_PBI() {
         initComponents();
+        Toolkit toolkit = getToolkit();
+        Dimension size = toolkit.getScreenSize();
+        setLocation(size.width/2 - getWidth()/2, size.height/2 - getHeight()/2);
     }
     @Override
     public void cetakStruk(String fileName, String fileContent) {

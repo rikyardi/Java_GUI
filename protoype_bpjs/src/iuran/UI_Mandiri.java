@@ -9,6 +9,8 @@ package iuran;
  *
  * @author rikya
  */
+import java.awt.Dimension;
+import java.awt.Toolkit;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -45,6 +47,9 @@ public class UI_Mandiri extends javax.swing.JFrame implements Struk{
      */
     public UI_Mandiri() {
         initComponents();
+        Toolkit toolkit = getToolkit();
+        Dimension size = toolkit.getScreenSize();
+        setLocation(size.width/2 - getWidth()/2, size.height/2 - getHeight()/2);
     }
     
     public static String ShowData(String where){
